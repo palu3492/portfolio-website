@@ -2,36 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="animation.js"></script>
-    <script src="scroll.js"></script>
+    <title>Alex Palumbo</title>
+    <!--<script src="helix.js"></script>-->
+    <script src="fullpage.js"></script>
+    <script src="fullpageSetup.js"></script>
+
     <link rel="stylesheet" type="text/css" href="index.css">
-    <!--<script>-->
-        <!--window.addEventListener('load', function () {-->
-            <!--canvas = document.getElementById('canvas');-->
-            <!--ctx = canvas.getContext('2d');-->
-            <!--ctx.fillStyle = "#fff";-->
-            <!--ctx.fillRect(0, 0, 1200, 400);-->
-        <!--});-->
-    <!--</script>-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 </head>
 <body>
-    <div>
-        <div id="first-slide" class="page">
-            <div id="canvas-container">
-                <canvas id="canvas" height="1080" width="1920"></canvas>
-            </div>
-            <div id="flex">
-                <h1 id="name">Alex Palumbo</h1>
-                <a href="#second-slide" style="color: white; text-decoration: none;">DOWN</a>
-                <!--<h5>Subtitle</h5>-->
-            </div>
+    <div id="fullpage">
+        <div id="first-section" class="section">
+            <!--<div id="canvas-container">-->
+                <!--<canvas id="canvas" height="1080" width="1920"></canvas>-->
+            <!--</div>-->
+            <!--<div id="flex">-->
+                <!--<h1 id="name">Alex Palumbo</h1>-->
+                <!--<a href="#second-slide"><h4><i class="fas fa-angle-double-down"></i>&nbsp;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&nbsp;<i class="fas fa-angle-double-down"></i></h4></a>-->
+            <!--</div>-->
         </div>
-        <div id="second-slide" class="page">
-        </div>
-        <div id="third-slide" class="page">
-        </div>
+        <div id="second-section" class="section"></div>
+        <div id="third-section" class="section"></div>
     </div>
 </body>
 </html>
