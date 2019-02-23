@@ -1,0 +1,59 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+}
+
+#first-slide{
+    background: rgb(48,48,48);
+    background: radial-gradient(circle, rgba(48,48,48,1) 0%, rgba(9,9,9,1) 100%);
+}
+
+#canvas-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#flex{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#name{
+    font-family: canada-type-gibson,helvetica neue,Helvetica,Arial,sans-serif;
+    text-shadow: 0 4px 15px #000;
+    color: white;
+    font-size: 60px;
+    border-bottom: solid 1px #ea8702;
+}
+
+#third-slide{
+    background: rgba(197, 29, 30, 0.59);
+}
